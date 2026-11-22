@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Detail Bookings</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="w"><div class="logo"><i></i>DETAIL <span>BOOKINGS</span></div><nav id="nav"></nav><span></span></div></header>
+<!-- SERVICES: edit text here. Set data-price="55" and data-time="60 min" on a card when ready. -->
+<div class="w" id="services-view">
+  <section class="hero"><div><div class="eyebrow">Services</div><h1>Book your detail</h1></div><p>Pick a package, then choose a slot on the calendar.</p></section>
+  <div class="grid3">
+    <div class="svc" data-id="wash" data-name="Maintenance Wash" data-price="" data-time="">
+      
+      <div class="mono">01 / Service</div>
+      <h3>Maintenance Wash</h3>
+      <p>The wash that keeps a detailed car detailed — safe, fast, and done by hand.</p>
+      <ul>
+        <li>Foam hand wash</li>
+        <li>Wheel + tire dressing</li>
+        <li>Interior vacuum</li>
+        <li>Glass, in and out</li>
+      </ul>
+      <div class="foot">
+        <div><div class="mono">From</div><div class="price" data-out="price">&nbsp;</div></div>
+        <div style="text-align:right"><div class="mono">Duration</div><div class="time" data-out="time">&nbsp;</div></div>
+      </div>
+      <div class="pick">+ Add to booking</div>
+    </div>
+    <div class="svc" data-id="interior" data-name="Interior Reset" data-price="" data-time="">
+      
+      <div class="mono">02 / Service</div>
+      <h3>Interior Reset</h3>
+      <p>Every surface steamed, extracted and conditioned back to a showroom cabin.</p>
+      <ul>
+        <li>Steam extraction</li>
+        <li>Leather clean + condition</li>
+        <li>Carpet + mat shampoo</li>
+        <li>Vent and crevice detail</li>
+      </ul>
+      <div class="foot">
+        <div><div class="mono">From</div><div class="price" data-out="price">&nbsp;</div></div>
+        <div style="text-align:right"><div class="mono">Duration</div><div class="time" data-out="time">&nbsp;</div></div>
+      </div>
+      <div class="pick">+ Add to booking</div>
+    </div>
+    <div class="svc" data-id="full" data-name="Full Detail" data-price="" data-time="">
+      <span class="badge">Most booked</span>
+      <div class="mono">03 / Service</div>
+      <h3>Full Detail</h3>
+      <p>Inside and out, front to back. The complete correction of everything you touch.</p>
+      <ul>
+        <li>Decontamination wash</li>
+        <li>Clay bar treatment</li>
+        <li>Full interior detail</li>
+        <li>Sealant, 6 months</li>
+      </ul>
+      <div class="foot">
+        <div><div class="mono">From</div><div class="price" data-out="price">&nbsp;</div></div>
+        <div style="text-align:right"><div class="mono">Duration</div><div class="time" data-out="time">&nbsp;</div></div>
+      </div>
+      <div class="pick">+ Add to booking</div>
+    </div>
+    <div class="svc" data-id="polish" data-name="Paint Correction" data-price="" data-time="">
+      
+      <div class="mono">04 / Service</div>
+      <h3>Paint Correction</h3>
+      <p>Machine polishing that removes swirls, oxidation and scratches — measured, not guessed.</p>
+      <ul>
+        <li>Paint depth measured</li>
+        <li>1–2 stage machine polish</li>
+        <li>Panel wipe + inspection</li>
+        <li>Sealant finish</li>
+      </ul>
+      <div class="foot">
+        <div><div class="mono">From</div><div class="price" data-out="price">&nbsp;</div></div>
+        <div style="text-align:right"><div class="mono">Duration</div><div class="time" data-out="time">&nbsp;</div></div>
+      </div>
+      <div class="pick">+ Add to booking</div>
+    </div>
+    <div class="svc" data-id="ceramic" data-name="Ceramic Coating" data-price="" data-time="">
+      
+      <div class="mono">05 / Service</div>
+      <h3>Ceramic Coating</h3>
+      <p>A cured glass layer bonded to your paint. Years of gloss, easier washes.</p>
+      <ul>
+        <li>Full paint correction</li>
+        <li>Panel prep + decon</li>
+        <li>Multi-year coating</li>
+        <li>Cure + 7-day check-in</li>
+      </ul>
+      <div class="foot">
+        <div><div class="mono">From</div><div class="price" data-out="price">&nbsp;</div></div>
+        <div style="text-align:right"><div class="mono">Duration</div><div class="time" data-out="time">&nbsp;</div></div>
+      </div>
+      <div class="pick">+ Add to booking</div>
+    </div>
+  </div>
+  <div class="bar"><div><div class="mono">Selected</div><div class="price" id="svc-total">—</div></div><button class="btn" id="next">Choose a time</button></div>
+</div>
+<div class="w" id="app"></div>
+<script src="app.js"></script>
+</body>
+</html>
